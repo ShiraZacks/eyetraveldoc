@@ -1,5 +1,5 @@
 /* logo color:
-* blue => #132d9b
+* blue => #0191d7
 *
 */
 
@@ -11,13 +11,23 @@
     left: 0pt;
     display:inline-block;
     overflow:clip;
-    background-color: #132d9b;
+    background-color: #0191d7;
     width:100%;
     height: 68px;
     white-space: normal;
     position:fixed;
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
 }
+
+/*logo picture*/
+.logo{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
         /*buttons on menu*/
 .buttons{ 
     vertical-align: middle;
@@ -31,7 +41,7 @@
     }
         /*hover button on menu*/
 a.buttons:hover{
-    color:#132d9b;
+    color:#0191d7;
     background-color: white;
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -70,7 +80,7 @@ li{
 }
 
 .button{ 
-    background-color: #132d9b;
+    background-color: #0191d7;
     color:white;
     border-right: 3px solid white;
     border-left: 3px solid white;
@@ -92,6 +102,6 @@ li{
 a.button:hover{
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     background-color: white;
-    color: #132d9b;
-    border-color: #132d9b;
+    color: #0191d7;
+    border-color: #0191d7;
 }
