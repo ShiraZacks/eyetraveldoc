@@ -1,107 +1,141 @@
 /* logo color:
 * blue => #0191d7
-*
 */
-
-
 /*topBar*/
-.topBar{
-    z-index: 0;
-    top:0px;
+.topBar {
+    z-index: 1;
+    top: 0px;
     left: 0pt;
-    display:inline-block;
-    overflow:clip;
+    display: inline-block;
+    overflow: clip;
     background-color: #0191d7;
-    width:100%;
+    width: 100%;
     height: 68px;
     white-space: normal;
-    position:fixed;
-    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+    position: fixed;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 /*logo picture*/
-.logo{
+.logo {
     margin-top: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-        /*buttons on menu*/
-.buttons{ 
+/*buttons on menu*/
+.buttons {
     vertical-align: middle;
-    line-height: 60px;    
-    color:white;
-    cursor:pointer;
+    line-height: 60px;
+    color: white;
+    cursor: pointer;
     word-wrap: normal;
     text-align: center;
-    padding: 30px ;
+    padding: 30px;
     text-decoration: none !important;
-    }
-        /*hover button on menu*/
-a.buttons:hover{
-    color:#0191d7;
+}
+
+/*hover button on menu*/
+a.buttons:hover {
+    color: #0191d7;
     background-color: white;
-    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*STUFF FOR LITTLE SCREEN*/
-.smaller{
+.smaller {
     z-index: 1;
     display: none;
     top: 10px;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
-li{
-    margin-bottom:0px; 
+
+li {
+    margin-bottom: 0px;
 }
-        /*responsive screen size*/
-@media only screen and (max-width:992px){ [class*="buttons"]{
-    display: none;}
-    [class*="smaller"]{
-        display: block;}
+
+/*responsive screen size*/
+@media only screen and (max-width:992px) {
+    [class*="buttons"] {
+        display: none;
+    }
+
+    [class*="smaller"] {
+        display: block;
+    }
 }
-        /*little screen menu*/
-.hide{
-    display:none
+
+/*little screen menu*/
+.hide {
+    display: none
 }
-.show{
+
+.show {
     margin-top: 50px;
     position: fixed;
-    display:block;
+    display: block;
     z-index: 1;
 }
 
-.titanic{
+.titanic {
     float: none;
 }
 
-.button{ 
+.button {
     background-color: #0191d7;
-    color:white;
+    color: white;
     border-right: 3px solid white;
     border-left: 3px solid white;
-    cursor:pointer;
+    cursor: pointer;
     display: inline-block;
     width: 100%;
     text-align: center;
-    align-self:right;
+    align-self: right;
     text-decoration: none !important;
     padding: 15px;
-    }
+}
 
-.bottom{
+.bottom {
     border-bottom: 3px solid white;
 }
-.top{
+
+.top {
     border-top: 3px solid white;
 }
-a.button:hover{
-    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+a.button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: white;
     color: #0191d7;
     border-color: #0191d7;
+}
+
+/*parralax picture*/
+.wrap {
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+.parralax {
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.picText{
+    margin-top: 70px;
+    position: relative;
+    text-align: center;
 }

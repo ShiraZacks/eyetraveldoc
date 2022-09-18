@@ -31,3 +31,4 @@ echo ' <!-- Navbar  -->
             </ul>
         </div>
     </div>';
+    ?>
