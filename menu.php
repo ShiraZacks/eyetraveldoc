@@ -32,3 +32,6 @@ echo ' <!-- Navbar  -->
         </div>
     </div>';
     ?>
+
+    <!-- TODO change to correct button names -->
+    <!-- home, about, contact, and the last thing that is legal to have -->

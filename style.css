@@ -139,3 +139,14 @@ a.button:hover {
     position: relative;
     text-align: center;
 }
+
+/* general stuff? */
+.center{
+    text-align: center;
+}
+.middle{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
