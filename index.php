@@ -15,10 +15,13 @@
 
 <body>
     <div class="wrap">
-        <img class="parralax" src="parralax.jpg">
+        <div class="parallax">
+        </div>
+
         <div class="picText">
             <h1>EYE TRAVEL - MICHIGAN'S ONLY HOME CARE EYE DOCTORS</h1>
             <h1>CALL (248) 376-6046 TO SCHEDULE AN APPOINTMENT</h1>
+
         </div>
     </div>
 
