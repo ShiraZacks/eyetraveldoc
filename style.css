@@ -1,10 +1,11 @@
 /* logo color:
 * blue => var(--blue)
-*/ 
+*/
 :root {
     --blue: #0191d7;
     --white: #ffffff;
-  }
+}
+
 /*topBar*/
 .topBar {
     z-index: 1;
@@ -22,7 +23,8 @@
 
 /*logo picture*/
 .logo {
-    margin-top: 30px;
+    margin-top: 70px;
+    margin-bottom: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -121,7 +123,7 @@ a.button:hover {
 
 /*parralax picture*/
 .wrap {
-    height: 800px;
+    height: 700px;
     overflow: hidden;
     position: relative;
 }
@@ -130,26 +132,59 @@ a.button:hover {
     background-image: url("parallax.jpg");
     opacity: 0.6;
     min-height: 500px;
-    margin-top: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.picText{
-    margin-top: 70px;
+.picText {
     position: relative;
     text-align: center;
 }
 
 /* general stuff? */
-.center{
+.center {
     text-align: center;
 }
-.middle{
+
+.middle {
     width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*3 columns*/
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*make responsive so they stack on phone*/
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+hr {
+    width: 50%;
+    color: var(--blue);
+    height: 5%;
+    border-style: solid;
+    margin: auto;
+}
+
+
+.hr-style{
+    margin-bottom: 70px;
 }
