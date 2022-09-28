@@ -28,7 +28,7 @@
     <div class="middle">
         <h1 class="center">OUR SERVICE</h1>
         <h3 class="center">Eye Travel has focused on providing residents of Southeastern Michigan with top-quality eye care. Using state of the art portable medical equipment, each patient receives a comprehensive eye exam. The exam begins with the doctor testing the patient's vision. The doctor continues to give a full eye exam, checking the overall health of the eye.</h3>
-        <h3 class="center">If you have any questions you can call our office at (248)376-6046 or send an Email to drzacks@eyetraveldoc.com</h3>
+        <h3 class="center">If you have any questions you can call our office at (248)376-6046 or send an email to drzacks@eyetraveldoc.com</h3>
     </div>
 </body>
 
