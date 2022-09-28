@@ -159,7 +159,6 @@ a.button:hover {
 .column {
     float: left;
     width: 33.33%;
-    text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -181,10 +180,42 @@ hr {
     color: var(--blue);
     height: 5%;
     border-style: solid;
-    margin: auto;
 }
 
 
-.hr-style{
-    margin-bottom: 70px;
+
+hr.style {
+        border:none;
+        height: 20px;
+        width: 90%;
+        height: 50px;
+        margin-top: 0;
+        border-bottom: 1px solid var(--blue);
+        box-shadow: 0 20px 20px -20px #333;
+        margin: -50px auto 10px; 
+}
+.circle-pic{
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 5px solid var(--blue);
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+.circle-pic:hover{
+    border-radius: 50%;
+    border: 5px double var(--blue);
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+
+/**/
+ul{
+    text-align: center;
+}
+
+li{
+    margin-left: 40%;
 }
