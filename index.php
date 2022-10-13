@@ -51,6 +51,9 @@
         </div>
             <ul><b>OPTICAL SHOP</b></ul>
             <hr>
+            <li>We bring a nice selection of frames</li>
+            <li>Something for every budget</li>
+            <li>Delivered to the house within 2 weeks of payment</li>
         </div>
         <div class="column">
         <div class="center">
@@ -58,7 +61,7 @@
         </div>
             <ul><b>SCHEDULE APPOINTMENT</b></ul>
             <hr>
-            <ul></ul>
+            <p class="appt-text">If you, or someone you care for, need to schedule an appointment with Eye Travel, call (248) 376-6046 and we will be in touch with you as soon as possible</p>
         </div>
     </div>
 
