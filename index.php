@@ -65,6 +65,11 @@
         </div>
     </div>
 
+    <div class="big-blue-stripe">
+        <br><br>
+    </div>
+
+
 </body>
 
 </html>

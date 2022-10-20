@@ -155,6 +155,24 @@ a.button:hover {
     margin-right: auto;
 }
 
+
+/* thin blue line */
+hr {
+    width: 50%;
+    color: var(--blue);
+    height: 5%;
+    border-style: solid;
+}
+
+hr.style {
+    border: 0;
+    border-top: 5px solid var(--blue);
+    border-bottom: 1px solid var(--blue);
+    padding: 5px 0;
+}
+
+/* three middle points */
+
 /*3 columns*/
 .column {
     float: left;
@@ -174,22 +192,6 @@ a.button:hover {
         width: 100%;
     }
 }
-
-hr {
-    width: 50%;
-    color: var(--blue);
-    height: 5%;
-    border-style: solid;
-}
-
-
-
-hr.style {
-    border: 0;
-    border-top: 5px solid var(--blue);
-    border-bottom: 1px solid var(--blue);
-    padding: 5px 0;
-}
 .circle-pic{
     margin-top: 20px;
     border-radius: 50%;
@@ -207,7 +209,6 @@ hr.style {
 }
 
 
-/**/
 ul{
     text-align: center;
 }
@@ -219,4 +220,9 @@ li{
     width: 60%;
     text-align:center;
     margin-left: 20%;
+}
+
+/* big blue stripe */
+.big-blue-stripe{
+    background-color: var(--blue);
 }
