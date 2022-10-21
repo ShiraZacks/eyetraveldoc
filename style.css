@@ -226,3 +226,19 @@ li{
 .big-blue-stripe{
     background-color: var(--blue);
 }
+
+
+/* about eye travel section */
+.column-2{
+    float: left;
+    width: 30%;
+}
+
+.shmush-right{
+    margin-left: 15%;
+    text-align: right;
+}
+
+.shmush-left{
+    margin-left: 5%;
+}
