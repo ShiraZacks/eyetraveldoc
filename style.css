@@ -6,6 +6,11 @@
     --white: #ffffff;
 }
 
+p{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
 /*topBar*/
 .topBar {
     z-index: 1;
@@ -167,9 +172,11 @@ hr {
     border-style: solid;
 }
 
-.style {
-    border: 15px outset var(--blue);
-    padding: 5px 0;
+hr.white{
+    width: 50%;
+    color: var(--white);
+    height: 5%;
+    border-style: solid;
 }
 
 /* three middle points */

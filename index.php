@@ -24,12 +24,19 @@
     </div>
 
 
-    <div class="middle style">
+    <div class="big-blue-stripe white-text">
+        <br><br>
         <h1 class="center">OUR SERVICE</h1>
-        <h3 class="center">Eye Travel has focused on providing residents of Southeastern Michigan with top-quality eye care. Using state of the art portable medical equipment, each patient receives a comprehensive eye exam. The exam begins with the doctor testing the patient's vision. The doctor continues to give a full eye exam, checking the overall health of the eye.</h3>
-        <h3 class="center">If you have any questions you can call our office at (248)376-6046 or send an email to drzacks@eyetraveldoc.com</h3>
+        <hr class="white">
+        <h3 class="center">Eye Travel has focused on providing residents of Southeastern Michigan with 
+            top-quality eye care. Using state of the art portable medical equipment, each patient receives 
+            a comprehensive eye exam. The exam begins with the doctor testing the patient's vision. The doctor 
+            continues to give a full eye exam, checking the overall health of the eye.</h3>
+        <h3 class="center">If you have any questions you can call our office at (248)376-6046 or send an 
+            email to drzacks@eyetraveldoc.com</h3>
+            <br><br>
     </div>
-    <br><br><br>
+    <br><br>
 
     <div class="row">
         <div class="column">
@@ -60,7 +67,8 @@
             </div>
             <ul><b>SCHEDULE APPOINTMENT</b></ul>
             <hr>
-            <p class="appt-text">If you, or someone you care for, need to schedule an appointment with Eye Travel, call (248) 376-6046 and we will be in touch with you as soon as possible</p>
+            <p class="appt-text">If you, or someone you care for, needs to schedule an appointment with Eye Travel, 
+                call (248) 376-6046 and we will be in touch with you as soon as possible</p>
         </div>
     </div>
     <br>
@@ -69,7 +77,8 @@
     <div class="white-text">
         <h1 class="center">WHAT IS EYE TRAVEL</h1>
         <p class="center">Eye Travel is Michigans first and only eye care practice that specializes in home care.
-            Our doctors are able to provide our patients with the same care that they would receive in a traditional eye doctors office.
+            Our doctors are able to provide our patients with the same care that 
+            they would receive in a traditional eye doctors office.
             All of the equipment they need fits nicely in a suitcase, and is so portable that the exam can given whether
             the patient prefers to sit in their favorite chair or even if they are bed bound.
             Whether you're a home care professional, a caregiver, or just a friend of someone
@@ -97,10 +106,13 @@
     <div class="service-area center">
 
         <h1>OUR SERVICE AREA</h1>
+        <?php include "map.php"?>
         <!-- here we put the map once we learn how to use the google maps api:) -->
-        <h5>Eye Travel sees patients throughout Southeastern Michigan, we go wherever we are needed. We spend most of time in Detroit, MI and the surrounding areas. Our doctors do leave the Metro Detroit area a few times a month and come to Flint and Ann Arbor.</h5>
+        <p>Eye Travel sees patients throughout Southeastern Michigan, we go wherever we are needed. 
+            We spend most of time in Detroit, MI and the surrounding areas. 
+            Our doctors do leave the Metro Detroit area a few times a month and come to Flint and Ann Arbor.</p>
         <br>
-        <h5>If you want to schedule an appointment or check to see if we come to your area, give us a call at (248) 376-6046.</h5>
+        <p>If you want to schedule an appointment or check to see if we come to your area, give us a call at (248) 376-6046.</p>
 
 
     </div>

@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
+<?php
+echo '
 
-<body>
-
-    <h1>My First Google Map</h1>
-
-    <div id="map" style="width:50%;height:400px;"></div>
+    <div id="map" style="width:50%;height:400px;margin: 0 25%"></div>
 
     <script>
         // This example creates a simple polygon representing the Bermuda Triangle.
@@ -18,7 +14,7 @@
                 },
                 mapTypeId: "terrain",
             });
-            // Define the LatLng coordinates for the polygon's path.
+            // Define the LatLng coordinates for the polygon path.
             const triangleCoords = [{
                     lat:42.334185,//detroit
                     lng: -83.041567
@@ -69,7 +65,4 @@
     </script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVL3o1VE9oI0tih1Vlh2-gvS0ShlFpvDU&callback=initMap"></script>
-
-</body>
-
-</html>
+'?>
