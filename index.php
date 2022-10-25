@@ -155,7 +155,7 @@
 
     <div class="center">
         <h1>SUBMIT A REFERRAL</h1>
-        <img class="referral" src="referral.pic">
+        <img class="referral" src="referral.jpg">
         <p>If you are a home care professional and would like us to see a patient of yours, 
             you can fax the information to (248) 569-7054.</p>
     </div>
