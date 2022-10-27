@@ -10,10 +10,9 @@ echo ' <!-- Navbar  -->
 
 
             <a href="index.php" class="buttons">Home</a>
-            <a href="parsha.php" class="buttons">This Week\'s Parsha</a>
-            <a href="month.php" class="buttons">This Month</a>
-            <a href="yontif.php" class="buttons">Next Yom Tov</a>
-            <a href="contact.php" class="buttons">Contact Me</a>
+            <a href="about.php" class="buttons">What is Eye Travel</a>
+            <a href="contact.php" class="buttons">Contact</a>
+            <a href="https://portal.aprima.com/11/login.aspx?UID=a747b803-8d58-479c-8365-87a8f087e10e" class="buttons">Patient Portal</a>
         </div>
     <!-- eye travel logo-->
         <div>
@@ -23,15 +22,12 @@ echo ' <!-- Navbar  -->
         <!-- Navbar on small screens -->
         <div id="smallScreen" class="hide">
             <ul>
-                <li><a href="index.php" class="button top">Home</a> </li>
-                <li><a href="parsha.php" class="button">This Week\'s Parsha</a> </li>
-                <li><a href="month.php" class="button">This Month</a></li>
-                <li><a href="yontif.php" class="button">Next Yom Tov</a></li>
-                <li><a href="contact.php" class="button bottom">Contact Me</a></li>
+                <li><a href="index.php" class="buttons">Home</a></li>
+                <li><a href="about.php" class="buttons">What is Eye Travel</a></li>
+                <li><a href="contact.php" class="buttons">Contact</a></li>
+                <li><a href="https://portal.aprima.com/11/login.aspx?UID=a747b803-8d58-479c-8365-87a8f087e10e" class="buttons">Patient Portal</a></li>
             </ul>
         </div>
     </div>';
     ?>
-
-    <!-- TODO change to correct button names -->
-    <!-- home, about, contact, and the last thing that is legal to have -->
+    

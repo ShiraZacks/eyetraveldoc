@@ -276,3 +276,20 @@ li {
 .feedback_name{
     font-family:Brush Script MT, Brush Script Std, cursive;
 }
+
+.div404{
+    background-color: var(--blue);
+    color: var(--white);
+}
+.link404{
+    color:var(--white);
+    text-decoration: none;
+}
+.link404:hover{
+    color:var(--white);
+    text-decoration: underline;
+}
+.link404:visited{
+    color:var(--white);
+    text-decoration: none;
+}
