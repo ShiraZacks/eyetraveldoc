@@ -4,6 +4,21 @@
 :root {
     --blue: #0191d7;
     --white: #ffffff;
+    --times: serif;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: var(--times);
+    font-size: 250%;
+    font-variant: small-caps;
+}
+h3{
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 p{
@@ -261,7 +276,7 @@ li {
 }
 
 .about-pic {
-    height: 500px;
+    height: 300px;
 }
 
 /* Style the counter cards */

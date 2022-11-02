@@ -19,5 +19,7 @@
     <h3 ><a class="link404" href="index.php">Click here to return to the Eye Travel homepage.</a></h3>
     <br><br><br>
 </div>
+<?php include "footer.php"?>
+
 </body>
 </html>

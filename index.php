@@ -107,10 +107,9 @@
 
         <h1>OUR SERVICE AREA</h1>
         <?php include "map.php"?>
-        <!-- here we put the map once we learn how to use the google maps api:) -->
-        <p>Eye Travel sees patients throughout Southeastern Michigan, we go wherever we are needed. 
+        <h3>Eye Travel sees patients throughout Southeastern Michigan, we go wherever we are needed. 
             We spend most of time in Detroit, MI and the surrounding areas. 
-            Our doctors do leave the Metro Detroit area a few times a month and come to Flint and Ann Arbor.</p>
+            Our doctors do leave the Metro Detroit area a few times a month and come to Flint and Ann Arbor.</h3>
         <br>
         <p>If you want to schedule an appointment or check to see if we come to your area, give us a call at (248) 376-6046.</p>
 
@@ -118,19 +117,19 @@
     </div>
 
     <div class="big-blue-stripe">
-        <br>
+        <br><br><hr class="white"><br><br>
     </div>
 
     <div class="center">
         <h1>MEET DR YAAKOV ZACKS, O.D.</h1>
         <img class="about-pic" src="about.jpg">
 
-        <p>Yaakov Zacks OD saw his first home bound patient in 2006.
-            He has been exclusively serving this largely under served population since then.</p>
+        <h3>Yaakov Zacks OD saw his first home bound patient in 2006.
+            He has been exclusively serving this largely under served population since then.</h3>
 
-        <p>Dr. Zacks attended the New England College of Optometry in Boston, MA.
+        <h3>Dr. Zacks attended the New England College of Optometry in Boston, MA.
             He held internships in community health centers and Boston VA hospital.
-            He has given thousands of eye exams to home-bound patients since committing to homecare in 2006.</p>
+            He has given thousands of eye exams to home-bound patients since committing to homecare in 2006.</h3>
     </div>
 
 
@@ -171,6 +170,8 @@
         <p>If you are a home care professional and would like us to see a patient of yours, 
             you can fax the information to (248) 569-7054.</p>
     </div>
+
+<?php include "footer.php"?>
 
 </body>
 
