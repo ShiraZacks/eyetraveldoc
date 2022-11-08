@@ -8,20 +8,22 @@
 }
 
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
+
+h1 {
     font-family: var(--times);
     font-size: 250%;
     font-variant: small-caps;
 }
-h3{
+
+h3 {
     margin-right: 50px;
     margin-left: 50px;
 }
 
-p{
+p {
     margin-right: 50px;
     margin-left: 50px;
 }
@@ -167,7 +169,8 @@ a.button:hover {
 .center {
     text-align: center;
 }
-.white-text{
+
+.white-text {
     color: var(--white);
 }
 
@@ -187,7 +190,7 @@ hr {
     border-style: solid;
 }
 
-hr.white{
+hr.white {
     width: 50%;
     color: var(--white);
     height: 5%;
@@ -203,6 +206,7 @@ hr.white{
     padding-left: 6.5%;
 
 }
+
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
     .column {
@@ -288,36 +292,67 @@ li {
     background-color: #f1f1f1;
 }
 
-.feedback_name{
-    font-family:Brush Script MT, Brush Script Std, cursive;
+.feedback_name {
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
-.div404{
+.div404 {
     background-color: var(--blue);
     color: var(--white);
 }
-.link404{
-    color:var(--white);
-    text-decoration: none;
-}
-.link404:hover{
-    color:var(--white);
-    text-decoration: underline;
-}
-.link404:visited{
-    color:var(--white);
+
+.link404 {
+    color: var(--white);
     text-decoration: none;
 }
 
-.link{
-    color:var(--blue);
-    text-decoration: none;
-}
-.link:hover{
-    color:var(--blue);
+.link404:hover {
+    color: var(--white);
     text-decoration: underline;
 }
-.link:visited{
-    color:var(--blue);
+
+.link404:visited {
+    color: var(--white);
     text-decoration: none;
+}
+
+.link {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+.link:visited {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+/* contact form */
+
+.form {
+    width: 50%;
+    /* height: 500px; */
+    margin: 5% 25%;
+}
+
+#message {
+    width: 50%;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+.contact-div {/* needa fix this so its centered */
+    margin: 0 25%;
+}
+
+.submit-button {
+    margin: 0 50%;
 }
