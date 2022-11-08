@@ -15,8 +15,11 @@
 <?php include "menu.php"; ?>
 
 <body>
-<div >
-    <h3 class="contact">We want to hear from you!</h3>
+<div>
+    <div class="big-blue-stripe"> <br><br>
+    <h1 class="contact white-text center">We want to hear from you!</h1>
+    <br><br>
+    </div>
     <form method="post" action="https://formspree.io/f/mlevoaar" class="form ">
         <?php if (isset($errors)) { ?>
             <p><?php echo $errors; ?></p>
@@ -40,7 +43,9 @@
             </div>
             <input type="hidden" name="_subject" id="email-subject" value="Eye Travel Contact Form Submission">
             <br>
-            <div class="g-recaptcha" data-sitekey="6LcNQe0iAAAAAKMiSeu7-AW6XsNCl-gj5EXrujOr"></div> <!-- to make recaptcha work as a background thing and not a click me button -->
+            <div class="center">
+            <div class="g-recaptcha" data-sitekey="6LcNQe0iAAAAAKMiSeu7-AW6XsNCl-gj5EXrujOr"></div> <!-- recaptcha is a im not a robot button, it  works!!!!!!! -->
+            </div>
             <br>
             <input type="submit" value="Submit" class="submit-button">
             <br><br>

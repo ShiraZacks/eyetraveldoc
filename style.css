@@ -356,3 +356,7 @@ label {
 .submit-button {
     margin: 0 50%;
 }
+
+/* todo: make recaptcha button centered and look good */
+
+/* google doesnt let the recaptcha be styled. Figure out how to make it centered is the only thing to edit... */
