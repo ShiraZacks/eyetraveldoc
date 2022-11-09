@@ -205,19 +205,30 @@ hr.white {
 /*3 columns*/
 .column {
     float: left;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-
+    width: 30%;
+    margin: 0 1.65%;
 }
+
+.column-card{
+    float: left;
+    width: 30%;
+    margin: 0 1.65%;
+}
+
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 760px) {
     .column {
-        width: 100%;
+        width: 80%;
         display: block;
-        margin-bottom: 20px;
+        margin:5% 10%;
     }
+}
+
+.row-1{
+    width: 100%;
+    margin:0 auto;
+    position:relative;
 }
 
 /* Clear floats after the columns */
@@ -227,8 +238,8 @@ hr.white {
     clear: both;
 }
 
-/*make responsive so they stack on phone*/
-@media screen and (max-width: 1000px) {
+/* make responsive so they stack on phone*/  /*
+@media screen and (max-width: 900px) {
     .column-card {
         display: block;
         margin-bottom: 20px;
@@ -236,7 +247,7 @@ hr.white {
         margin-left: auto;
         margin-right: auto;
         }
-}
+} */
 
 .circle-pic {
     margin-top: 20px;
@@ -272,7 +283,7 @@ li {
 }
 
 
-/* about eye travel section */
+/* about eye travel section   needa fix things here*/
 .column-2 {
     float: left;
     width: 30%;
@@ -288,8 +299,8 @@ li {
 }
 
 .about-pic {
-    width: 80%;
-    height: auto;
+    max-height: 40%;
+    max-width: 80%;
 }
 
 /* Style the counter cards */
@@ -308,12 +319,15 @@ li {
 
 .referral{
     display: block;
-    width: 80%;
+    max-height: 40%;
+    max-width: 80%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
+
+/* 404 page */
 .div404 {
     background-color: var(--blue);
     color: var(--white);
