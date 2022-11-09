@@ -138,7 +138,7 @@
         <div class="row">
             <br>
             <h1 class="center white-text">WHAT OUR PATIENTS SAY</h1>
-            <div class="column">
+            <div class="column-card">
                 <div class="card">
                     <p>"I HAVEN'T HAD MY EYES CHECKED IN 6 YEARS SINCE I HAD MY STROKE, NOW I CAN GET THEM CHECKED YEARLY"</p>
                     <p class="feedback_name">Lois W.</p>
@@ -146,7 +146,7 @@
                 </div>
             </div>
 
-            <div class="column">
+            <div class="column-card">
                 <div class="card">
                     <p>"SO QUICK AND THOROUGH; IF I WENT TO THE DOCTOR'S OFFICE I WOULD BE THERE FOR HOURS"</p>
                     <p class="feedback_name">Willie K.</p>
@@ -154,7 +154,7 @@
                 </div>
             </div>
 
-            <div class="column">
+            <div class="column-card">
                 <div class="card">
                     <p>"THANKS A MILLION, I DON'T KNOW WHAT I WOULD'VE DONE WITHOUT AN EYE DOCTOR COMING TO MY HOUSE"</p>
                     <p class="feedback_name">Joshua R.</p>
