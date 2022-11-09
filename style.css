@@ -1,12 +1,12 @@
 /* logo color:
 * blue => var(--blue)
 */
+
 :root {
     --blue: #0191d7;
     --white: #ffffff;
     --times: serif;
 }
-
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -48,6 +48,8 @@ p {
     margin-top: 70px;
     margin-bottom: 50px;
     display: block;
+    width: 80%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     z-index: 0;
@@ -145,8 +147,8 @@ a.button:hover {
 
 /*parralax picture*/
 .wrap {
-    height: 700px;
-    overflow: hidden;
+    height: max-content;
+    /* max-content fits everything it needs!!! takes away need for overflow cuz it magically emlarges the div if needed */
     position: relative;
 }
 
@@ -349,7 +351,8 @@ label {
     text-align: right;
 }
 
-.contact-div {/* needa fix this so its centered */
+.contact-div {
+    /* needa fix this so its centered */
     margin: 0 25%;
 }
 
