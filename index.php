@@ -85,8 +85,12 @@
                 who has difficulty getting to the doctors, contact Eye Travel today and help improve the
                 quality of life of someone you care about.
                 Dr. Zacks and his staff see patients all over Southeastern Michigan.</p>
+                <br>
+                <div class=" middle">
+                    <h1>"Eye Travel is the first and only eye care practice in Michigan to focus 100% on home care"</h1>
+                </div>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="column-2 shmush-right">
                     <h1>"Eye Travel is the first and only eye care practice in Michigan to focus 100% on home care"</h1>
                 </div>
@@ -97,7 +101,7 @@
                         and is so portable that the exam can be given whether the patient prefers to sit in their favorite
                         chair or even if they are bed bound.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
         <br>
         <br>

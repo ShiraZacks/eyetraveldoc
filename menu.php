@@ -22,10 +22,10 @@ echo ' <!-- Navbar  -->
         <!-- Navbar on small screens -->
         <div id="smallScreen" class="hide">
             <ul>
-                <li><a href="index.php" class="buttons">Home</a></li>
-                <li><a href="about.php" class="buttons">What is Eye Travel</a></li>
-                <li><a href="contact.php" class="buttons">Contact</a></li>
-                <li><a href="https://portal.aprima.com/11/login.aspx?UID=a747b803-8d58-479c-8365-87a8f087e10e" class="buttons">Patient Portal</a></li>
+                <li><a href="index.php" class="buttonSmall">Home</a></li>
+                <li><a href="about.php" class="buttonSmall">What is Eye Travel</a></li>
+                <li><a href="contact.php" class="buttonSmall">Contact</a></li>
+                <li><a href="https://portal.aprima.com/11/login.aspx?UID=a747b803-8d58-479c-8365-87a8f087e10e" class="buttonSmall">Patient Portal</a></li>
             </ul>
         </div>
     </div>';

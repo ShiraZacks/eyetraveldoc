@@ -117,7 +117,7 @@ li {
     float: none;
 }
 
-.button {
+.buttonSmall {
     background-color: var(--blue);
     color: var(--white);
     border-right: 3px solid var(--white);
@@ -139,7 +139,7 @@ li {
     border-top: 3px solid var(--white);
 }
 
-a.button:hover {
+a.buttonSmall:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: var(--white);
     color: var(--blue);
@@ -177,11 +177,12 @@ a.button:hover {
     color: var(--white);
 }
 
-.middle {  /* not used at all, could take out? */
+.middle {  
     width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 
@@ -393,4 +394,10 @@ label {
 /*can just use this to center recaptcha - google doesnt let the recaptcha be styled.*/
 .g-recaptcha {
     display: inline-block;
+}
+
+#map{
+    max-width:80%;
+    height:400px;
+    margin: 0 15%
 }

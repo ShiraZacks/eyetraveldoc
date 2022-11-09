@@ -1,7 +1,7 @@
 <?php
 echo '
 
-    <div id="map" style="width:50%;height:400px;margin: 0 25%"></div>
+    <div id="map"></div>
 
     <script>
         // This example creates a simple polygon representing the Bermuda Triangle.
