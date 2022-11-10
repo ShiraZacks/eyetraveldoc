@@ -34,7 +34,7 @@ p {
     z-index: 1;
     top: 0px;
     left: 0pt;
-    display: inline-block;
+    display: block;
     overflow: clip;
     background-color: var(--blue);
     width: 100%;
@@ -98,7 +98,7 @@ li {
     }
 
     [class*="smaller"] {
-        display: inline-block;
+        display: block;
     }
 }
 
@@ -108,7 +108,7 @@ li {
 }
 
 .show {
-    position: fixed;
+    position: absolute;
     display: block;
     z-index: 1;
     top: 60px;
