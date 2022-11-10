@@ -20,13 +20,13 @@ h1 {
 }
 
 h3 {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 p {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 /*topBar*/
@@ -48,7 +48,7 @@ p {
 .logo {
     margin-top: 70px;
     margin-bottom: 50px;
-    display: block;
+    display:block;
     width: 80%;
     height: auto;
     margin-left: auto;
@@ -88,6 +88,7 @@ ul {
 
 li {
     margin-bottom: 0px;
+    margin-left: 25%;
 }
 
 /*responsive screen size*/
@@ -97,7 +98,7 @@ li {
     }
 
     [class*="smaller"] {
-        display: block;
+        display: inline-block;
     }
 }
 
@@ -107,10 +108,11 @@ li {
 }
 
 .show {
-    margin-top: 50px;
     position: fixed;
     display: block;
     z-index: 1;
+    top: 60px;
+    left:-12px;
 }
 
 .titanic {
@@ -268,9 +270,6 @@ ul {
     text-align: center;
 }
 
-li {
-    margin-left: 25%;
-}
 
 .appt-text {
     width: 60%;

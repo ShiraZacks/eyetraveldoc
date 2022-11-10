@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="style.css?<?= time() ?>">
 </head>
 
-<?php include "menu.php"; ?>
+
 
 <body>
+<div class="container">  
+<?php include "menu.php"; ?>
     <div class="wrap">
         <div class="parallax">
         </div>
@@ -22,7 +24,7 @@
             <h1>CALL (248) 376-6046 TO SCHEDULE AN APPOINTMENT</h1>
         </div>
     </div>
-
+    </div>  
 
     <div class="big-blue-stripe white-text">
         <br><br>
