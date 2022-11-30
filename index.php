@@ -81,7 +81,7 @@
             <p class="center">Eye Travel is Michigans first and only eye care practice that specializes in home care.
                 Our doctors are able to provide our patients with the same care that
                 they would receive in a traditional eye doctors office.
-                All of the equipment they need fits nicely in a suitcase, and is so portable that the exam can given whether
+                All of the equipment they need fits nicely in a suitcase, and is so portable that the exam can be given whether
                 the patient prefers to sit in their favorite chair or even if they are bed bound.
                 Whether you're a home care professional, a caregiver, or just a friend of someone
                 who has difficulty getting to the doctors, contact Eye Travel today and help improve the
