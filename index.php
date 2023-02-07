@@ -15,7 +15,7 @@
 
 <body>
 <div class="container">  
-<?php include "menu.php"; ?>
+<?php include "header.php"; ?>
     <div class="wrap">
         <div class="parallax">
         </div>

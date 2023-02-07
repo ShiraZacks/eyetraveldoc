@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="style.css?<?= time() ?>">
 </head>
-<?php include "menu.php"; ?>
+<?php include "header.php"; ?>
 
 <body>
 <div>
