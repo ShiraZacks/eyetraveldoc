@@ -17,7 +17,7 @@
         <h1>What is Eye Travel</h1>
         <div class="big-blue-stripe"><br></div>
         <div><br>
-        <h3>Eye Travel is Michigan's first and only eye care practice that specializes in-home care.
+        <h3>Eye Travel is Michigan's first and only eye care practice that specializes in home care.
             Our doctors are able to provide our patients with the same care that they would receive in a
             traditional eye doctor's office. All of the equipment they need fits nicely in a suitcase and
             is so portable that the exam can be given whether the patient prefers to sit in their favorite
