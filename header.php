@@ -4,7 +4,7 @@ echo ' <!-- Navbar  -->
         <div class="topBar">
 
             <div class="smaller">
-                <a class="bar" onclick="myFunction()" title="Toggle Navigation Menu"><img src="bars.svg" alt="MENU"></a>
+                <a class="bar" href='#logo' onclick="myFunction()" title="Toggle Navigation Menu"><img src="bars.svg" alt="MENU"></a>
             </div>
 
 
