@@ -21,7 +21,7 @@
         </div>
         <div class="picText">
             <h1>EYE TRAVEL - MICHIGAN'S ONLY HOME CARE EYE DOCTORS</h1>
-            <h1>CALL (248) 376-6046 TO SCHEDULE AN APPOINTMENT</h1>
+            <h1>CALL <a href="tel:2483766049">(248)376-6046</a> TO SCHEDULE AN APPOINTMENT</h1>
         </div>
     </div>
     </div>  
@@ -34,7 +34,7 @@
             top-quality eye care. Using state of the art portable medical equipment, each patient receives
             a comprehensive eye exam. The exam begins with the doctor testing the patient's vision. The doctor
             continues to give a full eye exam, checking the overall health of the eye.</h3>
-        <h3 class="center">If you have any questions you can call our office at (248)376-6046 or send an
+        <h3 class="center">If you have any questions you can call our office at <a href="tel:2483766049">(248)376-6046</a> or send an
             email to drzacks@eyetraveldoc.com</h3>
         <br><br>
     </div>
@@ -70,7 +70,7 @@
             <ul><b>SCHEDULE APPOINTMENT</b></ul>
             <hr>
             <p class="appt-text">If you, or someone you care for, needs to schedule an appointment with Eye Travel,
-                call (248) 376-6046 and we will be in touch with you as soon as possible</p>
+                call <a href="tel:2483766049">(248)376-6046</a> and we will be in touch with you as soon as possible</p>
         </div>
     </div>
     <br>
@@ -117,7 +117,7 @@
             We spend most of time in Detroit, MI and the surrounding areas.
             Our doctors do leave the Metro Detroit area a few times a month and come to Flint and Ann Arbor.</h3>
         <br>
-        <p>If you want to schedule an appointment or check to see if we come to your area, give us a call at (248) 376-6046.</p>
+        <p>If you want to schedule an appointment or check to see if we come to your area, give us a call at <a href="tel:2483766049">(248)376-6046</a>.</p>
 
 
     </div>
