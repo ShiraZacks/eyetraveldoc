@@ -24,7 +24,7 @@
             chair or even if they are bed-bound.</h3>
             <hr>
         <h3>Whether you're a home care professional, a caregiver, or just a friend of someone who has difficulty
-            getting to the doctors, <a class="link" href="contact.php">contact Eye Travel today</a> and help improve the quality of life of someone
+            getting to the doctors, <a class="link" href="contact">contact Eye Travel today</a> and help improve the quality of life of someone
             you care about. Dr. Zacks and his staff see patients all over Southeastern Michigan.</h3>
             <hr>
         <h3> As an added measure of convenience, our doctors also bring with them a selection of men's
