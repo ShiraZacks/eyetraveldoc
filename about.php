@@ -30,7 +30,7 @@
         <h3> As an added measure of convenience, our doctors also bring with them a selection of men's
             and women's glasses. Once the patient selects the frames that they like, the doctor will
             make the adjustments to the frame to make sure that it fits correctly, and the glasses will
-            be delivered within 7-10 days.</h3><br><br>
+            be delivered within two weeks of payment.</h3><br><br>
         </div>
             <br><br>
     </div>
