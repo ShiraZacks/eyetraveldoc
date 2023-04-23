@@ -20,11 +20,11 @@
     <h1 class="contact white-text center">We want to hear from you!</h1>
     <br><br>
     </div>
-    <form method="post" action="https://formspree.io/f/mlevoaar" class="form ">
+    <form method="post" action="https://formspree.io/f/mlevoaar" class="form center">
         <?php if (isset($errors)) { ?>
             <p><?php echo $errors; ?></p>
         <?php } ?>
-        <fieldset class=" fieldset">
+        <fieldset class="center fieldset">
             <legend> Contact Us Today! </legend>
             <br><br>
             <div    class="contact-div">
