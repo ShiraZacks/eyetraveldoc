@@ -381,7 +381,6 @@ ul {
     color: var(--blue);
     text-decoration: none;
 }
-
 /* contact form */
 
 .form {
@@ -394,15 +393,31 @@ ul {
     width: 50%;
 }
 
+
 label {
     display: inline-block;
     width: 150px;
     text-align: right;
+    margin-right: auto;
+    margin-left: auto;
 }
 
+
+@media screen and (max-width: 900px){
+label{
+    text-align: center;
+}
+.form{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+
 .contact-div {
-    /* needa fix this so its centered */
-    margin: 0 25%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .submit-button {
