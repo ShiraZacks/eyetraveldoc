@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title="Eye Travel: Eye Care For The Home Bound">
+    <meta name="description" content="Eye Travel is the first and only eye care practice to focus 100% on home care. Dr. Zacks has been exclusively serving this largely under served population since 2006.">
     <title>Eye Travel: Eye Care For The Home Bound</title>
     <link rel="shortcut icon" type="image/png" href="eye.png" />
     <script type="text/javascript" charset="utf-8" src="toggleBars.js?<?= time() ?>"></script>
@@ -21,7 +23,7 @@
         </div>
         <div class="picText">
             <h1>EYE TRAVEL - MICHIGAN'S ONLY HOME CARE EYE DOCTORS</h1>
-            <h1>CALL <a href="tel:2483766049">(248)376-6046</a> TO SCHEDULE AN APPOINTMENT</h1>
+            <h1>CALL <a class="link" href="tel:2483766049">(248)376-6046</a> TO SCHEDULE AN APPOINTMENT</h1>
         </div>
     </div>
     </div>  
@@ -34,8 +36,8 @@
             top-quality eye care. Using state of the art portable medical equipment, each patient receives
             a comprehensive eye exam. The exam begins with the doctor testing the patient's vision. The doctor
             continues to give a full eye exam, checking the overall health of the eye.</h3>
-        <h3 class="center">If you have any questions you can call our office at <a href="tel:2483766049">(248)376-6046</a> or send an
-            email to <a href=mailto:"drzacks@eyetraveldoc.com?subject="Eye Travel Question">drzacks@eyetraveldoc.com</a></h3>
+        <h3 class="center">If you have any questions you can call our office at <a class="blue-link" href="tel:2483766049">(248)376-6046</a> or send an
+            email to <a class="blue-link" href="mailto:drzacks@eyetraveldoc.com?subject:Eye Travel Question">drzacks@eyetraveldoc.com</a></h3>
         <br><br>
     </div>
     <br><br>
@@ -70,7 +72,7 @@
             <ul><b>SCHEDULE APPOINTMENT</b></ul>
             <hr>
             <p class="appt-text">If you, or someone you care for, needs to schedule an appointment with Eye Travel,
-                call <a href="tel:2483766049">(248)376-6046</a> and we will be in touch with you as soon as possible</p>
+                call <a class="link" href="tel:2483766049">(248)376-6046</a> and we will be in touch with you as soon as possible</p>
         </div>
     </div>
     <br>
@@ -78,7 +80,7 @@
         <br>
         <div class="white-text">
             <h1 class="center">WHAT IS EYE TRAVEL</h1>
-            <p class="center">Eye Travel is Michigans first and only eye care practice that specializes in home care.
+            <h3 class="center">Eye Travel is Michigans first and only eye care practice that specializes in home care.
                 Our doctors are able to provide our patients with the same care that
                 they would receive in a traditional eye doctors office.
                 All of the equipment they need fits nicely in a suitcase, and is so portable that the exam can be given whether
@@ -86,7 +88,7 @@
                 Whether you're a home care professional, a caregiver, or just a friend of someone
                 who has difficulty getting to the doctors, contact Eye Travel today and help improve the
                 quality of life of someone you care about.
-                Dr. Zacks and his staff see patients all over Southeastern Michigan.</p>
+                Dr. Zacks and his staff see patients all over Southeastern Michigan.</h3>
                 <br>
                 <div class=" middle">
                     <h1>"Eye Travel is the first and only eye care practice in Michigan to focus 100% on home care"</h1>
@@ -117,7 +119,7 @@
             We spend most of time in Detroit, MI and the surrounding areas.
             Our doctors do leave the Metro Detroit area a few times a month and come to Flint and Ann Arbor.</h3>
         <br>
-        <p>If you want to schedule an appointment or check to see if we come to your area, give us a call at <a href="tel:2483766049">(248)376-6046</a>.</p>
+        <p>If you want to schedule an appointment or check to see if we come to your area, give us a call at <a class="link" href="tel:2483766049">(248)376-6046</a>.</p>
 
 
     </div>
