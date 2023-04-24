@@ -381,6 +381,20 @@ ul {
     color: var(--blue);
     text-decoration: none;
 }
+
+.blue-link {
+    color: var(--white);
+    text-decoration: none;
+}
+.blue-link:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.blue-link:visited {
+    color: var(--white);
+    text-decoration: none;
+}
 /* contact form */
 
 .form {
