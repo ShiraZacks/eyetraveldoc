@@ -92,7 +92,10 @@ a.buttons:hover {
 
 ul {
     list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0;
 }
+
 
 li {
     margin-bottom: 0px;
@@ -116,7 +119,7 @@ li {
 }
 
 .show {
-    position: absolute;
+    position: fixed;
     display: block;
     z-index: 1;
     top: 60px;
@@ -283,12 +286,6 @@ hr.white {
 .circle-pic:hover {
     border: 5px double var(--blue);
 }
-
-
-ul {
-    text-align: center;
-}
-
 
 .appt-text {
     width: 60%;
