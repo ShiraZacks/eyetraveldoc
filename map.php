@@ -4,7 +4,7 @@ echo '
     <div id="map"></div>
 
     <script>
-        // This example creates a simple polygon representing the Bermuda Triangle.
+        // This gets the area. the center point of the map comes first, then the points to enclose the circle.
         function initMap() {
             const map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 8,
@@ -14,7 +14,7 @@ echo '
                 },
                 mapTypeId: "terrain",
             });
-            // Define the LatLng coordinates for the polygon path.
+            // Define the latitude and longitude coordinates for the polygon path.
             const triangleCoords = [{
                     lat:42.334185,//detroit
                     lng: -83.041567
@@ -32,8 +32,12 @@ echo '
                     lng: -84.4
                 },
                 {
-                    lat: 42.71, //lansing
-                    lng: -84.56
+                    lat: 42.84, //dewitt
+                    lng: -84.57
+                },
+                {
+                    lat: 42.62, //potterville
+                    lng: -84.74
                 },
                 {
                     lat: 43.02, //flint  		
