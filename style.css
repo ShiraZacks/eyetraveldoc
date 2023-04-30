@@ -238,12 +238,8 @@ hr.white {
         margin:5% 10%;
     }
     .parallax{ 
-        background-image: url("parallax.jpg");
-        opacity: 0.6;
         min-height: 300px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
+        background-attachment: local; /*thiis will take care of phone photo size scrolling issue*/
         background-size: 420px 300px;
     }
 }
