@@ -37,7 +37,7 @@
             a comprehensive eye exam. The exam begins with the doctor testing the patient's vision. The doctor
             continues to give a full eye exam, checking the overall health of the eye.</h3>
         <h3 class="center">If you have any questions you can call our office at <a class="blue-link" href="tel:2483766049">(248)376-6046</a> or send an
-            email to <a class="blue-link" href="mailto:drzacks@eyetraveldoc.com?subject:Eye Travel Question">drzacks@eyetraveldoc.com</a></h3>
+            email to <a class="blue-link" href="contact">drzacks@eyetraveldoc.com</a></h3>
         <br><br>
     </div>
     <br><br>
