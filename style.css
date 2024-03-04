@@ -20,17 +20,23 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 h1 {
     font-family: var(--times);
     font-size: 2.5em;
+    text-shadow: 0 -1px 0 rgb(112, 112, 112);
+
     font-variant: small-caps;
 }
+
 
 h3 {
     margin-right: 2%;
     margin-left: 2%;
+    text-shadow: 0 -1px 0 rgb(112, 112, 112);
+
 }
 
 p {
@@ -49,6 +55,7 @@ p {
     width: 100%;
     height: 68px;
     white-space: normal;
+    border-bottom: var(--white) 2px solid;
     position: fixed;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
@@ -57,7 +64,7 @@ p {
 .logo {
     margin-top: 70px;
     margin-bottom: 50px;
-    display:block;
+    display: block;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -69,6 +76,7 @@ p {
     vertical-align: middle;
     line-height: 60px;
     color: var(--white);
+    /* text-shadow: 0 -.2px 0 black; */
     cursor: pointer;
     word-wrap: normal;
     text-align: center;
@@ -81,6 +89,7 @@ a.buttons:hover {
     color: var(--blue);
     background-color: var(--white);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .2s;
 }
 
 /*STUFF FOR LITTLE SCREEN*/
@@ -123,7 +132,7 @@ li {
     display: block;
     z-index: 1;
     top: 60px;
-    left:-30px;
+    left: -30px;
 }
 
 .titanic {
@@ -157,12 +166,14 @@ a.buttonSmall:hover {
     background-color: var(--white);
     color: var(--blue);
     border-color: var(--blue);
+    transition: .2s;
+
 }
 
 /*parralax picture*/
 .wrap {
-    height: max-content;
-    /* max-content fits everything it needs!!! takes away need for overflow cuz it magically emlarges the div if needed */
+    /* height: max-content; */
+    /* max-content fits everything it needs!!! takes away need for overflow cuz it magically enlarges the div if needed */
     position: relative;
 }
 
@@ -190,7 +201,7 @@ a.buttonSmall:hover {
     color: var(--white);
 }
 
-.middle {  
+.middle {
     width: 80%;
     display: block;
     margin-left: auto;
@@ -223,32 +234,24 @@ hr.white {
     margin: 0 1.65%;
 }
 
-.column-card{
+.column-card {
     float: left;
     width: 30%;
     margin: 0 1.65%;
 }
 
 
-/* Responsive columns - one column layout (vertical) on small screens and smaller parallax */
+/* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 760px) {
     .column {
         width: 80%;
         display: block;
-        margin:5% 10%;
+        margin: 5% 10%;
     }
-    .parallax{ 
-        min-height: 300px;
-        background-attachment: local; /*thiis will take care of phone photo size scrolling issue*/
-        background-size: 420px 300px;
-    }
+
 }
 
-.row-1{
-    width: 100%;
-    margin:0 auto;
-    position:relative;
-}
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -257,79 +260,95 @@ hr.white {
     clear: both;
 }
 
-/* make responsive so they stack on phone*/  
-/* dont neeed*/
-/* @media screen and (max-width: 900px) {
-    .column-card {
-        display: block;
-        margin-bottom: 20px;
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        }
-} */
+
+table {
+    width: 90%;
+    margin: auto;
+    table-layout: fixed;
+}
+
+td {
+    text-align: center;
+    width: 33.33%;
+}
+
+td.stripe {
+    border-bottom: var(--white) 2px solid;
+    vertical-align: top;
+}
+
+td.stripe:hover {
+    border-bottom: var(--blue) 2px solid;
+    transition: .5s;
+}
 
 .circle-pic {
     margin-top: 20px;
     border-radius: 50%;
-    border: 5px solid var(--blue);
+    border: 2px solid var(--blue);
     padding: 20px;
     max-width: 80%;
     min-width: 200px;
     height: 150px;
 }
 
-.circle-pic:hover {
-    border: 5px double var(--blue);
-}
-
-.appt-text {
-    width: 60%;
-    text-align: center;
-    margin-left: 20%;
-}
-
 /* big blue stripe */
 .big-blue-stripe {
     background-color: var(--blue);
+    border-radius: 45px;
+    border: double white 5px;
+    /* box-shadow: 6px 2px 8px 0 rgba(0, 0, 0, 0.2); */
 }
+
 
 
 /* about eye travel section   needa fix things here*/
-.column-2 {
-    float: left;
-    width: 30%;
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.shmush-right {
-    margin-left: 15%;
+
+.column-2 {
+    width: 45%;
+}
+
+.right-align {
     text-align: right;
 }
 
-.shmush-left {
-    margin-left: 5%;
+
+.patient-pics {
+    width: 100%;
+    border: 3px outset;
+    box-shadow: 6px 2px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .about-pic {
     max-height: 350px;
+    border: 3px outset;
+    box-shadow: 6px 2px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 80%;
 }
 
 /* Style the counter cards */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 2px 8px 0 rgba(0, 0, 0, 0.2);
     /* this adds the "card" effect */
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
 }
 
+
+
 .feedback_name {
     font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
 
-.referral{
+.referral {
     display: block;
     max-height: 40%;
     max-width: 80%;
@@ -379,6 +398,7 @@ hr.white {
     color: var(--white);
     text-decoration: none;
 }
+
 .blue-link:hover {
     color: var(--white);
     text-decoration: underline;
@@ -388,6 +408,7 @@ hr.white {
     color: var(--white);
     text-decoration: none;
 }
+
 /* contact form */
 
 .form {
@@ -410,15 +431,28 @@ label {
 }
 
 
-@media screen and (max-width: 900px){
-label{
-    text-align: center;
-}
-.form{
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
+@media screen and (max-width: 900px) {
+    label {
+        text-align: center;
+    }
+
+    .form {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .flex-row {
+        flex-direction: column;
+    }
+
+    .column-2 {
+        width: 90%;
+    }
+
+    .right-align {
+        text-align: center;
+    }
 }
 
 
@@ -428,7 +462,25 @@ label{
 }
 
 .submit-button {
-    margin: 0 50%;
+    margin: 0 auto;
+    padding: 10px 15px;
+    color: white;
+    background-color: var(--blue);
+    border: 5px double white;
+    border-radius: 25px;
+}
+
+
+.submit-button:hover {
+    color: var(--blue);
+    background-color: var(--white);
+    border: 5px double var(--blue);
+}
+
+.submit-button:active {
+    color: white;
+    background-color: var(--blue);
+    border: 5px double white;
 }
 
 /*can just use this to center recaptcha - google doesnt let the recaptcha be styled.*/
@@ -436,8 +488,9 @@ label{
     display: inline-block;
 }
 
-#map{
-    max-width:80%;
-    height:400px;
-    margin: 0 15%
+#map {
+    max-width: 80%;
+    height: 400px;
+    margin: 0 15%;
+    box-shadow: 6px 2px 8px 0 rgba(0, 0, 0, 0.2);
 }
