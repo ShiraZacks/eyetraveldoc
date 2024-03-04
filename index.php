@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta title="Eye Travel: Eye Care For The Home Bound">
-    <meta name="description" content="Eye Travel is Michigan's first and only eye care practice to focus 100% on home care. A full eye exam in the comfort of your favorite chair!">
-    <title>Eye Travel: Eye Care For The Home Bound</title>cd /
+    <meta name="description" content="Eye Travel is Michigan's first and only eye care practice to focus 100% on homecare. A full eye exam in the comfort of your favorite chair!">
+    <title>Eye Travel: Eye Care For The Home Bound</title>
     <link rel="shortcut icon" type="image/png" href="eye.png" />
     <script type="text/javascript" charset="utf-8" src="toggleBars.js?<?= time() ?>"></script>
     <link rel="stylesheet" href="style.css?<?= time() ?>">
@@ -18,13 +18,11 @@
         <?php include "header.php" ?>
         <div class="wrap">
 
-            <div class="picText">
+            <div class="topText">
                 <h1>EYE TRAVEL - MICHIGAN'S ONLY HOME CARE EYE DOCTORS</h1>
+                <hr>
                 <h1>CALL <a class="link" href="tel:2483766046">(248)376-6046</a> TO SCHEDULE AN APPOINTMENT</h1>
             </div>
-            <!-- <div class="parallax">
-            </div> -->
-
         </div>
     </div>
 
@@ -43,7 +41,7 @@
     <br><br>
 
 
-    <table>
+    <table class="hideSmallScreen">
         <tr>
             <td>
                 <img class="circle-pic" src="eye.png">
@@ -90,41 +88,31 @@
     </table>
 
 
-    <!-- 
-    <div class="row-1 row">
-        <div class="column">
-            <div class="center">
-                <img class="circle-pic" src="eye.png">
-            </div>
-            <ul><b>EYE TESTS</b></ul>
-            <hr>
-            <li>Glaucoma test</li>
-            <li>Cataract evaluation</li>
-            <li>Dilated retinal exam</li>
-            <li>Diabetic evaluation</li>
-            <li>Fundus photography</li>
-        </div>
-        <div class="column">
-            <div class="center">
-                <img class="circle-pic" src="glasses.jpg">
-            </div>
-            <ul><b>OPTICAL SHOP</b></ul>
-            <hr>
-            <li>We bring a nice selection of frames</li>
-            <li>Something for every budget</li>
-            <li>Delivered to the house within 2 weeks of payment</li>
-        </div>
-        <div class="column">
-            <div class="center">
-                <img class="circle-pic" src="appt.jpg">
-            </div>
-            <ul><b>SCHEDULE APPOINTMENT</b></ul>
-            <hr>
-            <p class="appt-text">If you, or someone you care for, needs to schedule an appointment with Eye Travel,
-                call <a class="link" href="tel:2483766046">(248)376-6046</a> and we will be in touch with you as soon as possible</p>
-        </div>
-    </div> -->
+    <!-- small screen option -->
+    <div class="showSmallScreen center">
+        <img class="circle-pic" src="eye.png">
+        <h3><b>EYE TESTS</b></h3>
+        <hr>
+        <p>Glaucoma test</p>
+        <p>Cataract evaluation</p>
+        <p>Dilated retinal exam</p>
+        <p>Diabetic evaluation</p>
+        <p>Fundus photography</p>
+        <img class="circle-pic" src="glasses.jpg">
+        <h3><b>OPTICAL SHOP</b></h3>
+        <hr>
+        <p>We bring a nice selection of frames, with something for every budget.</p>
+        <p>Glasses are delivered to the house within 2 weeks of payment</p>
+        <img class="circle-pic" src="appt.jpg">
+        <h3><b>SCHEDULE APPOINTMENT</b></h3>
+        <hr>
+        <p>If you, or someone you care for, needs to schedule an appointment with Eye Travel,
+            call <a class="link" href="tel:2483766046">(248)376-6046</a>.</p>
+        <p>We will be in touch with you to set up an appointment as soon as possible.</p>
+    </div>
 
+    <br>
+    <br>
     <br>
     <div class="big-blue-stripe">
         <br>
@@ -177,11 +165,10 @@
         <img class="about-pic" src="about.jpg">
 
         <h3>Yaakov Zacks OD saw his first home bound patient in 2006.
-            He has been exclusively serving this largely under served population since then.</h3>
 
-        <h3>Dr. Zacks attended the New England College of Optometry in Boston, MA.
-            He held internships in community health centers and the Boston VA hospital.
-            He has given thousands of eye exams to home-bound patients since committing to homecare in 2006.</h3>
+            <h3>Dr. Zacks attended the New England College of Optometry in Boston, MA.
+                He held internships in community health centers and the Boston VA hospital.
+                He has given thousands of eye exams to home-bound patients since committing to homecare in 2006.</h3>
     </div>
 
 

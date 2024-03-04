@@ -25,9 +25,7 @@ body {
 
 h1 {
     font-family: var(--times);
-    font-size: 2.5em;
     text-shadow: 0 -1px 0 rgb(112, 112, 112);
-
     font-variant: small-caps;
 }
 
@@ -187,9 +185,11 @@ a.buttonSmall:hover {
     background-size: cover;
 }
 
-.picText {
-    position: relative;
+.topText {
     text-align: center;
+    width: 100vw;
+    overflow: hidden;
+    overflow-wrap: break-word;
 }
 
 /* general stuff? */
@@ -290,6 +290,12 @@ td.stripe:hover {
     max-width: 80%;
     min-width: 200px;
     height: 150px;
+}
+
+.showSmallScreen {
+    display: none;
+    width: 95vw;
+    margin: 5px auto;
 }
 
 /* big blue stripe */
@@ -452,6 +458,14 @@ label {
 
     .right-align {
         text-align: center;
+    }
+
+    table.hideSmallScreen {
+        display: none;
+    }
+
+    .showSmallScreen {
+        display: block;
     }
 }
 
