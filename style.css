@@ -187,7 +187,6 @@ a.buttonSmall:hover {
 
 .topText {
     text-align: center;
-    width: 100vw;
     overflow: hidden;
     overflow-wrap: break-word;
 }
