@@ -32,12 +32,12 @@ echo '
                     lng: -84.4
                 },
                 {
-                    lat: 42.84, //dewitt
-                    lng: -84.57
-                },
-                {
                     lat: 42.62, //potterville
                     lng: -84.74
+                },
+                {
+                    lat: 42.84, //dewitt
+                    lng: -84.57
                 },
                 {
                     lat: 43.02, //flint  		
@@ -69,4 +69,4 @@ echo '
     </script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVL3o1VE9oI0tih1Vlh2-gvS0ShlFpvDU&callback=initMap"></script>
-'?>
+';
